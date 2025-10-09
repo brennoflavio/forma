@@ -1,0 +1,25 @@
+name: Release Forma
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Pull Clickable
+        run: |
+          docker pull clickable/ci-ut24.04-1.x-arm64:latest
+
+      - name: Build
+        run: |
+          docker run --volume ./:/app clickable/ci-ut24.04-1.x-arm64:latest bash -c "cd /app && clickable build --arch arm64"
+
+      - name: Deploy
+        run: |
+          docker run --env OPENSTORE_API_KEY="${{ secrets.OPENSTORE_API_KEY }}" --volume ./:/app clickable/ci-ut24.04-1.x-arm64:latest bash -c "cd /app && clickable publish --arch arm64 -- '${{ github.event.head_commit.message }}'"

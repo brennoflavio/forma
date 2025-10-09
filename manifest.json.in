@@ -1,0 +1,16 @@
+{
+    "name": "forma.brennoflavio",
+    "description": "Image Converter for Ubuntu Touch",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Forma",
+    "hooks": {
+        "forma": {
+            "apparmor": "forma.apparmor",
+            "desktop":  "forma.desktop",
+            "content-hub": "forma-contenthub.json"            
+        }
+    },
+    "version": "@BUILD_VERSION@",
+    "maintainer": "Brenno Flávio de Almeida <contato@brennoflavio.com.br>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
