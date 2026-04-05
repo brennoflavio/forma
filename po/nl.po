@@ -8,105 +8,107 @@ msgstr ""
 "Project-Id-Version: forma.brennoflavio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-13 16:40+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-04-06 16:54+0000\n"
+"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/ubports/forma/nl/>"
+"\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: ../qml/Main.qml:97 forma.desktop.in.h:1
 msgid "Forma"
-msgstr ""
+msgstr "Forma"
 
 #: ../qml/Main.qml:110
 msgid "Converting Images"
-msgstr ""
+msgstr "Afbeeldingen converteren"
 
 #: ../qml/Main.qml:120
 msgid "Output format"
-msgstr ""
+msgstr "Uitvoerformaat"
 
 #: ../qml/Main.qml:140
 msgid "Quality"
-msgstr ""
+msgstr "Kwaliteit"
 
 #: ../qml/Main.qml:141
 msgid "Conversion quality (0-100)"
-msgstr ""
+msgstr "De conversiekwaliteit (0–100)"
 
 #: ../qml/Main.qml:152
 msgid "Optimize"
-msgstr ""
+msgstr "Optimaliseren"
 
 #: ../qml/Main.qml:153
 msgid "Optimize file size"
-msgstr ""
+msgstr "Optimaliseer de bestandsgrootte"
 
 #: ../qml/Main.qml:162
 msgid "Select images to convert"
-msgstr ""
+msgstr "Kies te converteren afbeeldingen"
 
 #: ../qml/Main.qml:173
 msgid "Convert %1 images"
-msgstr ""
+msgstr "%1 afbeeldingen converteren"
 
 #: ../qml/Main.qml:175
 msgid "Convert 1 image"
-msgstr ""
+msgstr "1 afbeelding converteren"
 
 #: ../qml/Main.qml:176
 msgid "Convert Images"
-msgstr ""
+msgstr "Afbeeldingen converteren"
 
 #: ../qml/Main.qml:191
 msgid "Failed to convert images. Please try again."
-msgstr ""
+msgstr "Het converteren is mislukt — probeer het opnieuw."
 
 #: ../qml/Main.qml:228
 msgid "Select Images to Convert"
-msgstr ""
+msgstr "Kies te converteren afbeeldingen"
 
 #: ../qml/Main.qml:291
 msgid "Conversion Error"
-msgstr ""
+msgstr "Conversie mislukt"
 
 #: ../qml/Main.qml:295
 msgid "OK"
-msgstr ""
+msgstr "Oké"
 
 #: ../qml/Main.qml:314
 msgid "Share Converted Images"
-msgstr ""
+msgstr "Geconverteerde afbeeldingen delen"
 
 #: ../qml/ut_components/ActionableList.qml:94
 #: ../qml/ut_components/CardList.qml:74
 msgid "Search"
-msgstr ""
+msgstr "Zoeken"
 
 #: ../qml/ut_components/ActionableList.qml:97
 #: ../qml/ut_components/CardList.qml:72
 msgid "No items"
-msgstr ""
+msgstr "Er zijn geen items"
 
 #: ../qml/ut_components/AppHeader.qml:81
 msgid "Back"
-msgstr ""
+msgstr "Terug"
 
 #: ../qml/ut_components/AppHeader.qml:97
 msgid "Settings"
-msgstr ""
+msgstr "Instellingen"
 
 #: ../qml/ut_components/Form.qml:68
 msgid "Submit"
-msgstr ""
+msgstr "Indienen"
 
 #: ../qml/ut_components/InputField.qml:96
 msgid "Invalid input"
-msgstr ""
+msgstr "De invoer is ongeldig"
 
 #: ../qml/ut_components/InputField.qml:169
 msgid "This field is required"
-msgstr ""
+msgstr "Dit veld is vereist"
