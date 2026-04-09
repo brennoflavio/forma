@@ -8,106 +8,108 @@ msgstr ""
 "Project-Id-Version: forma.brennoflavio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-13 16:40+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-04-10 08:31+0000\n"
+"Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/forma/"
+"uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: ../qml/Main.qml:97 forma.desktop.in.h:1
 msgid "Forma"
-msgstr ""
+msgstr "Forma"
 
 #: ../qml/Main.qml:110
 msgid "Converting Images"
-msgstr ""
+msgstr "Перетворення зображень"
 
 #: ../qml/Main.qml:120
 msgid "Output format"
-msgstr ""
+msgstr "Формат виводу"
 
 #: ../qml/Main.qml:140
 msgid "Quality"
-msgstr ""
+msgstr "Якість"
 
 #: ../qml/Main.qml:141
 msgid "Conversion quality (0-100)"
-msgstr ""
+msgstr "Якість перетворення (0-100)"
 
 #: ../qml/Main.qml:152
 msgid "Optimize"
-msgstr ""
+msgstr "Оптимізація"
 
 #: ../qml/Main.qml:153
 msgid "Optimize file size"
-msgstr ""
+msgstr "Оптимізація розміру файлу"
 
 #: ../qml/Main.qml:162
 msgid "Select images to convert"
-msgstr ""
+msgstr "Оберіть зображення для перетворення"
 
 #: ../qml/Main.qml:173
 msgid "Convert %1 images"
-msgstr ""
+msgstr "Перетворити %1 зображе(нь/ння)"
 
 #: ../qml/Main.qml:175
 msgid "Convert 1 image"
-msgstr ""
+msgstr "Перетворити 1 зображення"
 
 #: ../qml/Main.qml:176
 msgid "Convert Images"
-msgstr ""
+msgstr "Перетворити зображення"
 
 #: ../qml/Main.qml:191
 msgid "Failed to convert images. Please try again."
-msgstr ""
+msgstr "Помилка перетворення зображень. Спробуйте, будь ласка, ще."
 
 #: ../qml/Main.qml:228
 msgid "Select Images to Convert"
-msgstr ""
+msgstr "Оберіть зображення для перетворення"
 
 #: ../qml/Main.qml:291
 msgid "Conversion Error"
-msgstr ""
+msgstr "Помилка перетворення"
 
 #: ../qml/Main.qml:295
 msgid "OK"
-msgstr ""
+msgstr "ОК"
 
 #: ../qml/Main.qml:314
 msgid "Share Converted Images"
-msgstr ""
+msgstr "Поділіться перетвореними зображеннями"
 
 #: ../qml/ut_components/ActionableList.qml:94
 #: ../qml/ut_components/CardList.qml:74
 msgid "Search"
-msgstr ""
+msgstr "Пошук"
 
 #: ../qml/ut_components/ActionableList.qml:97
 #: ../qml/ut_components/CardList.qml:72
 msgid "No items"
-msgstr ""
+msgstr "Порожньо"
 
 #: ../qml/ut_components/AppHeader.qml:81
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
 #: ../qml/ut_components/AppHeader.qml:97
 msgid "Settings"
-msgstr ""
+msgstr "Налаштування"
 
 #: ../qml/ut_components/Form.qml:68
 msgid "Submit"
-msgstr ""
+msgstr "Надіслати"
 
 #: ../qml/ut_components/InputField.qml:96
 msgid "Invalid input"
-msgstr ""
+msgstr "Хибне введення"
 
 #: ../qml/ut_components/InputField.qml:169
 msgid "This field is required"
-msgstr ""
+msgstr "Це поле обов'язкове"
