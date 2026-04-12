@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: forma.brennoflavio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-13 16:40+0000\n"
-"PO-Revision-Date: 2026-04-09 20:00+0000\n"
+"PO-Revision-Date: 2026-04-13 10:09+0000\n"
 "Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/ubports/forma/"
 "ca/>\n"
@@ -95,7 +95,7 @@ msgstr "Cap element"
 
 #: ../qml/ut_components/AppHeader.qml:81
 msgid "Back"
-msgstr "Negre"
+msgstr "Enrere"
 
 #: ../qml/ut_components/AppHeader.qml:97
 msgid "Settings"
