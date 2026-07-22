@@ -63,13 +63,13 @@ jobs:
           } >> "${FORGEJO_OUTPUT:-$GITHUB_OUTPUT}"
 
       - name: Build
-        run: clickable build --arch arm64
+        run: clickable build
 
       - name: Deploy
         env:
           OPENSTORE_API_KEY: ${{ secrets.OPENSTORE_API_KEY }}
           RELEASE_MESSAGE: ${{ steps.commit.outputs.message }}
-        run: clickable publish --arch arm64 -- "$RELEASE_MESSAGE"
+        run: clickable publish -- "$RELEASE_MESSAGE"
 
 concurrency:
   group: release-forma-master
