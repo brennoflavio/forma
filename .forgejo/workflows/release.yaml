@@ -12,7 +12,7 @@ env:
 
 jobs:
   publish:
-    runs-on: clickable-ut24-1x
+    runs-on: clickable-ut24-1x-arm64
 
     steps:
       - name: Install Node.js for JavaScript actions
